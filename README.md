@@ -5,3 +5,6 @@ our home has the name of the cabinets.
 inside each cabinet, you find name, picture and more infos.
 
 feel free to fork and be part of this project.
+
+1) check below some images which inspired our visual identity and layout:
+https://br.pinterest.com/gabrielacaesar/upperechelon/
