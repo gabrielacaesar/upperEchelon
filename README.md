@@ -11,12 +11,14 @@ https://pt.wikipedia.org/wiki/Torquato_Jardim
 3) salary of each minister, available on Portal da Transparência.
 http://www.portaldatransparencia.gov.br/servidores/Servidor-DetalhaServidor.asp?IdServidor=2199900
 
-4) oficial meetings of each minister:
+4) oficial meetings of each minister.
 http://www.justica.gov.br/agendas
 
 5) flights with FAB airplane on the current year.
 http://www.fab.mil.br/voos/
 
+6) main news related to cabinet and minister at that time.
+http://www1.folha.uol.com.br/educacao/2016/09/1815821-leia-perguntas-e-respostas-sobre-as-mudancas-no-ensino-medio-do-pais.shtml
 
 feel free to fork and contribute to this project.
 
