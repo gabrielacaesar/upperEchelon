@@ -28,3 +28,7 @@ https://br.pinterest.com/gabrielacaesar/upperechelon/
 b) our social media accounts have been created. check below:
 https://twitter.com/altoEscalao
 https://www.facebook.com/altoEscalaoProject/
+
+c) our account on gmail.com:
+upperechelonproject[at]gmail[dot]com
+altoescalaoproject[at]gmail[dot]com
