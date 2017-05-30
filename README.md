@@ -26,8 +26,8 @@ a) check below some images which inspired our visual identity and layout:
 https://br.pinterest.com/gabrielacaesar/upperechelon/
 
 b) our social media accounts have been created. check below:
-https://twitter.com/altoEscalao
-https://www.facebook.com/altoEscalaoProject/
+https://twitter.com/altoEscalao</br>
+https://www.facebook.com/altoEscalaoProject/</br>
 https://medium.com/@altoEscalao
 
 c) our accounts on gmail.com:
