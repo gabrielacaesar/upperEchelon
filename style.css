@@ -484,5 +484,68 @@ footer .fa {
 }
 
 
+/* aqui começa a estilização de eliseuPadilha.html */
+
+.minister {
+	background: #0B0B61;
+	color: white;
+	max-height: 300px;
+	text-align: center;
+	padding: 32px 0px;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.ministerName h3 {
+	font-size: 40px;
+}
+
+.ministerName h4 {
+	font-size: 25px;
+}
+
+.ministerPhoto img {
+	max-height: 110px;
+	position: absolute;
+}
+
+.ministerSocial {
+	font-size: 25px;
+	padding-left: 200px;
+}
+
+.ministerSocial .fa {
+	padding-left: 8px;
+	color: white;
+}
 
 
+.ministerCabinet {
+	padding: 30px 0px;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.ministerCabinet td {
+	padding-right: 50px; 
+	padding-bottom: 20px;
+}
+
+.ministerCabinet td:first-child {
+	padding-bottom: 0px;
+}
+
+.ministerCabinet td:last-child {
+	padding-right: none;
+}
+
+.tableName {
+	font-size: 33px;
+	margin-left: 220px;
+  	color: #32353F;
+}
+
+.tableName {
+	padding-top: 30px;
+	border-bottom: 1.5px #00EC85 solid;
+}
