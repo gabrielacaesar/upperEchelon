@@ -62,7 +62,6 @@ footer .fa {
 	z-index: 1000;
 	left: 100px;
 	top: 40px;
-	margin: 15px;
 	border-radius: 3%;
 }
 
@@ -162,8 +161,6 @@ footer .fa {
     left: 0;
     right: 0;
     bottom: 120;
-	/*background: linear-gradient(180deg,transparent 0,transparent 45%,rgb(50, 53, 63)); 
-	/* deletar ou não*/*/
 }
 
 .title h1, .title h2 {
@@ -396,6 +393,71 @@ footer .fa {
 	background-image: url("images/temer.jpg");
 }
 
+/* aqui começa a estilização de casaCivil.html */
+
+.title.inside {
+	height: 40vh;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+.title.inside h1, .title.inside h2 {
+	margin: 0px;
+	text-align: center;
+	color: #32353F;
+}
+
+.title.inside h1 {
+	font-size: 70px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.title.inside h2 {
+	font-size: 35px;
+}
 
 
+.portraits {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 80px;
+}
 
+.portrait {
+	max-width: 800px;
+	max-height: 340px;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 35px;
+	padding-top: 5px;
+}
+
+.portrait:hover{
+  	background: #32353F;
+    border-radius: 5%;
+}
+
+.portrait img {
+	max-width: 800px;
+	max-height: 200px;
+}
+
+.portraitContent {
+	border: 3px #32353F solid;
+	border-radius: 5%;
+	background: #00EC85;
+}
+
+.portraitName {
+ 	font-size: 200%;
+ 	color: white;
+ 	padding-top: 7px;
+}
+
+.portraitGovernment {
+	font-size: 100%;
+	color: #32353F;
+	padding-bottom: 7px;
+}
