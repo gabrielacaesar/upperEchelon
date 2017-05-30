@@ -1,0 +1,401 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Rubik|Signika|Barrio');
+
+* {
+	box-sizing: none;
+	font-family: 'Lato', 'Rubik', 'Signika', Helvetica, sans-serif;
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+footer {
+	background: #32353F;
+	max-width: 100%;
+	justify-content: center;
+}
+
+footer p {
+	color: white;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+footer .fa {
+	font-size: 27px;
+	color: white;
+}
+
+/* aqui começam as main classes */
+
+.container {
+	padding: 0;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+
+.flex {
+	display: flex;
+}
+
+/* aqui começa o menu */
+
+#hamburgerMenu {
+	display: block;
+	width: 65px;
+	height: 65px;
+	border: 5px #00EC85 solid;
+	background: none;
+	position: absolute;
+	z-index: 1000;
+	left: 100px;
+	top: 40px;
+	margin: 15px;
+	border-radius: 3%;
+}
+
+#hamburgerMenu .row {
+	width: 100%;
+	height: 4px;
+	margin: 6px 0px;
+	display: block;
+	background: #00EC85;
+}
+
+#hamburgerMenu.clicked {
+	margin: 15px;
+}
+
+
+#hamburgerList {
+	width: 41%;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 999;
+	background: #32353F;
+	border-radius: 1%;
+} 
+
+#hamburgerList li {
+	padding: 100px 120px 5px;
+	border-bottom: 1.5px #00EC85 solid;
+}
+
+#hamburgerList li a .fa {
+	padding-right: 50px;
+	font-size: 40px;
+}
+
+#hamburgerList li a .fa:hover {
+	color: #00EC85;
+}
+
+#hamburgerList li:last-child {
+	border-bottom: none;
+}
+
+#hamburgerList a {
+	font-size: 200%;
+	color: white;
+}
+
+.responsivList {
+	display: none;
+}
+
+.responsivList.visible {
+	display: block;
+}
+
+.responsivList.visible ul {
+	padding-top: 70px;
+}
+
+.cover {
+	display: none;
+	top: 0;
+	left: 0;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	opacity: 0.4;
+	z-index: 998;
+}
+
+.toggleCover {
+	display: block;
+}
+
+
+/* aqui começa a minha primeira dobra */
+
+.title {
+	height: 70vh;
+	background-image: url("images/alvoradaBetoBarataPR7maio2017edited2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+}
+
+.title:after {
+	content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 120;
+	/*background: linear-gradient(180deg,transparent 0,transparent 45%,rgb(50, 53, 63)); 
+	/* deletar ou não*/*/
+}
+
+.title h1, .title h2 {
+	z-index: 997;
+	color: white;
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 90px;
+	font-weight: 700;
+	text-align: left;
+	font-family: 'Barrio', cursive, Helvetica, sans-serif;;
+	margin-left: 240px;
+}
+
+.title h1:first-child {
+	margin-top: 40px;
+}
+
+.title h2 {
+	font-size: 45px;
+	font-weight: 400;
+	text-align: right;
+	font-family: 'Barrio', cursive, Helvetica, sans-serif;
+	margin-right: 220px;
+	margin-top: 90px;
+}
+
+.title h2:last-child {
+	margin-top: 0px;
+}
+
+.title h2 span {
+	font-family: 'Barrio', cursive, Helvetica, sans-serif;
+}
+
+.title img {
+	object-fit: cover;
+	z-index: -666;
+}
+
+.lightGreen {
+	color: #00EC85;
+}
+
+.darkBlue {
+	color: #0B0B61;
+}
+
+
+/* aqui começam os CARDS */
+
+
+.cards {
+	display: flex;
+	flex-wrap: wrap !important;
+	justify-content: space-between;
+	flex-direction: row;
+	background: #32353F;
+	padding: 50px 80px;
+}
+
+.card {
+	border: 3px #00EC85 solid;
+	flex: 23%;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 25px;
+	position: relative;
+	max-width: 100%;
+	border-radius: 3%;
+}
+
+.cards .card:hover:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #EFEEEC;
+	opacity: 0.7;
+	border-radius: 3%;
+}
+
+.cards .card:hover p {
+	color: white;
+	font-size: 250%;
+}
+
+.cards .card .cardTitle {
+	font-size: 200%;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	position: absolute;
+	padding: 20px 0px;
+	z-index: 1;
+	width: 100%;
+	background: #01BA6A;
+}
+
+.cards .card .cardTitle .cabinet {
+	font-weight: 400;
+}
+
+.cards .card .cardTitle .subject {
+	font-weight: 700;
+}
+
+.cards .card .cardTitle p:hover {
+	opacity: 0.8;
+}
+
+.cards .card.one {
+	background-image: url("images/planalto.jpg");
+}
+
+.cards .card.two {
+	background-image: url("images/minasEnergia.jpg");
+}
+
+.cards .card.three {
+	background-image: url("images/educacao.jpg");
+}
+
+.cards .card.four {
+	background-image: url("images/saude.jpg");
+}
+
+.cards .card.five {
+	background-image: url("images/trabalho.jpg");
+}
+
+.cards .card.six {
+	background-image: url("images/defesa.jpg");
+}
+
+.cards .card.seven {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.eight {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.nine {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.ten {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.eleven {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twelve {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.thirteen {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.fourteen {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.fiveteen {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.sixteen {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.seventeen {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.eighteen {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.nineteen {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twenty {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twentyOne {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twentyTwo {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twentyThree {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twentyFour {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twentyFive {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twentySix {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twentySeven {
+	background-image: url("images/temer.jpg");
+}
+
+.cards .card.twentyEight {
+	background-image: url("images/temer.jpg");
+}
+
+
+
+
