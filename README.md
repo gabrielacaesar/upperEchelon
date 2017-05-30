@@ -25,6 +25,6 @@ feel free to fork and contribute to this project.
 a) check below some images which inspired our visual identity and layout:
 https://br.pinterest.com/gabrielacaesar/upperechelon/
 
-b) check our social media accounts:
+b) our social media accounts have been created. check below:
 https://twitter.com/altoEscalao
-https://www.facebook.com/Alto-escal%C3%A3o-1891710274409909/
+https://www.facebook.com/altoEscalaoProject/
