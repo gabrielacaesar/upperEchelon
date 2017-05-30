@@ -167,13 +167,13 @@ footer .fa {
 	z-index: 997;
 	color: white;
 	text-align: center;
+	font-family: 'Barrio', cursive, Helvetica, sans-serif;
 }
 
 .title h1 {
 	font-size: 90px;
 	font-weight: 700;
 	text-align: left;
-	font-family: 'Barrio', cursive, Helvetica, sans-serif;;
 	margin-left: 240px;
 }
 
@@ -185,7 +185,6 @@ footer .fa {
 	font-size: 45px;
 	font-weight: 400;
 	text-align: right;
-	font-family: 'Barrio', cursive, Helvetica, sans-serif;
 	margin-right: 220px;
 	margin-top: 90px;
 }
@@ -220,7 +219,6 @@ footer .fa {
 	flex-wrap: wrap !important;
 	justify-content: space-between;
 	flex-direction: row;
-	background: #32353F;
 	padding: 50px 80px;
 }
 
@@ -417,6 +415,29 @@ footer .fa {
 	font-size: 35px;
 }
 
+.cabinet {
+	background: #0B0B61;
+	max-height: 300px;
+}
+
+.cabinet h3, .cabinet h4, .cabinet h5 {
+	color: white;
+	text-align: center;
+}
+
+.cabinet h3 {
+	font-size: 50px;
+	padding-top: 30px;
+}
+
+.cabinet h4 {
+	font-size: 25px;
+}
+
+.cabinet h5 {
+	font-size: 18px;
+	padding-bottom: 50px;
+}
 
 .portraits {
 	flex-direction: row;
