@@ -29,6 +29,6 @@ b) our social media accounts have been created. check below:
 https://twitter.com/altoEscalao
 https://www.facebook.com/altoEscalaoProject/
 
-c) our account on gmail.com:
+c) our accounts on gmail.com:
 upperechelonproject[at]gmail[dot]com
 altoescalaoproject[at]gmail[dot]com
