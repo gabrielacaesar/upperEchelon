@@ -9,7 +9,7 @@ function abrirMenu() {
 
 botaoMenuHamburguer.onclick = abrirMenu;
 
-
+//aqui começa o background durante o hamburger menu
 var cover = document.querySelector(".cover");
 
 botaoMenuHamburguer.addEventListener('click',function() {
