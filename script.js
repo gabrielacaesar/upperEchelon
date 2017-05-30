@@ -8,3 +8,10 @@ function abrirMenu() {
 }
 
 botaoMenuHamburguer.onclick = abrirMenu;
+
+
+var cover = document.querySelector(".cover");
+
+botaoMenuHamburguer.addEventListener('click',function() {
+    cover.classList.toggle("toggleCover");
+});
