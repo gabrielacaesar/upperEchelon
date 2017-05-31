@@ -17,7 +17,7 @@ http://www.justica.gov.br/agendas
 5) flights with FAB airplane on the current year.</br>
 http://www.fab.mil.br/voos/
 
-6) recent tweets or mentions of each minister on Twitter (via API).
+6) recent mentions to each minister on Twitter (via API). or recent tweets of the oficial account.
 
 7) main news related to cabinet and minister at that time.</br>
 http://www1.folha.uol.com.br/educacao/2016/09/1815821-leia-perguntas-e-respostas-sobre-as-mudancas-no-ensino-medio-do-pais.shtml
